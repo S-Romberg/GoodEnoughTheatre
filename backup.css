@@ -1,0 +1,77 @@
+body{
+  display: flex;
+  margin: 0;
+  background-image: url(plumbing-2.jpg);
+  background-size: 100vw 100vh;
+  color: darkgrey;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 20vw;
+  height: 70vh;
+  margin: 2vw;
+  margin-bottom: 0;
+  flex-direction: column;
+  border-radius: 10px;
+  text-shadow: 1px 1px black;
+  flex-wrap: wrap;
+}
+h1 {
+  margin: 1.5vw;
+  margin-bottom: 0;
+  font-size: 3.3vw;
+}
+h3{
+  font-size: 1.3vw;
+  margin: 1vh;
+}
+nav{
+  margin: 2vh;
+  text-shadow: none;
+  font-size: 2vw;
+  text-decoration: none;
+}
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60vw;
+  margin: 3vh;
+  margin-left: 7vw;
+  border-radius: 10px;
+  color: #E8E8E8;
+}
+.goal {
+ margin: 2vh;
+ margin-top: 5vh;
+ border-bottom: double #E0E0E0;
+ padding-bottom: 2vh;
+}
+.goal-no {
+  margin: 2vh;
+  margin-top: 5vh;
+}
+.learn{
+  margin: 2vh;
+  border-bottom: double #E0E0E0;
+}
+.learn-no {
+  margin: 2vh;
+}
+.learn-to-learn-body {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 140vh;
+  width: 60vw;
+  margin: 3vh;
+  margin-left: 7vw;
+  border-radius: 10px;
+}

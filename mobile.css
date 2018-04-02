@@ -1,0 +1,105 @@
+@media only screen and (max-width: 700px) {
+  * {
+    background-color: black;
+    font-size: 2vw;
+  }
+  body{
+    margin: 0;
+    color: #ecd9c6;
+    font-family: 'Droid Sans', arial, serif;
+    font-family: 'Poiret One', cursive;
+  }
+  header {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 0;
+    border-bottom: double darkred;
+  }
+  h1 {
+    margin-left: 4vw;
+    font-size: 4vw;
+    padding: 3vh;
+    background-color: rgb(10,10,10);
+    text-shadow: #ecd9c6 .5px .5px;
+    color: darkred;
+    border: 5px outset darkred;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+  }
+  nav{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    color: #ecd9c6;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    border-left: solid darkred;
+    margin-left: 5vh;
+  }
+  a:visited {
+    color: #ecd9c6;
+    text-decoration: none;
+  }
+  button {
+    height: 40vh;
+    width: 5vh;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none !important;
+    z-index: +1;
+  }
+  button:hover{
+    background-color: rgba(180,180,180,0.5);
+  }
+  .display-left{
+    margin-right: -3vw;
+  }
+  .display-right{
+    margin-left: -5vh;
+  }
+  img {
+    height: 20vh;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+  }
+  #textOne {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color: black;
+    border-left: darkred solid thick;
+  }
+  #textTwo {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background-color: black;
+    border-left: darkred solid thick;
+  }
+  #slideshow {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    background-color: #ecd9c6;
+  }
+  #picTwo {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    background-color: #ecd9c6;
+  }
+  footer {
+    background-color: darkred;
+    width: 100vw;
+    height: 5vh;
+  }
+}
